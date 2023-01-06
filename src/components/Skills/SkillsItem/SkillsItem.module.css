@@ -1,0 +1,17 @@
+.skillsItemBlock {
+    width: 250px;
+
+    background-color: gray;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    background-color: #ff1f28;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+}
+.description {
+    color: darkslategray;
+}

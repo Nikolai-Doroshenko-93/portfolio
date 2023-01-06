@@ -3,9 +3,11 @@
     background-color: #ffdb39;
 }
 .greetings {
-    width: 100px;
+    background-color: gray;
 }
 .photo {
     width: 100px;
     height: 100px;
+    background-color: #ff1f28;
 }
+
