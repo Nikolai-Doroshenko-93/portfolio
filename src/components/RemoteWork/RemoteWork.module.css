@@ -1,0 +1,35 @@
+.remoteWorkBlock {
+    background-color: #abb8ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.contentBlock {
+    margin: 0 auto;
+}
+.contentRemoteWork {
+    border: 1px solid black;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title {
+    margin: 0;
+    text-align: center;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #ffe4c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}

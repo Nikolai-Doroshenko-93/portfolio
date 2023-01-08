@@ -8,9 +8,11 @@ const Skills = () => {
         <div>
             <div className={s.skillsBlock}>
               <div className={c.content}>
-                <SkillsItem/>
-                <SkillsItem/>
-                <SkillsItem/>
+                  <div className={s.contentBlock}>
+                    <SkillsItem/>
+                    <SkillsItem/>
+                    <SkillsItem/>
+                  </div>
               </div>
             </div>
         </div>

@@ -8,9 +8,11 @@ const Projects = () => {
         <div className={s.projectsBlock}>
             <h2 className={s.title}>My Projects</h2>
             <div className={c.content}>
-                <ProjectsItem/>
-                <ProjectsItem/>
-                <ProjectsItem/>
+                <div className={s.contentBlock}>
+                    <ProjectsItem/>
+                    <ProjectsItem/>
+                    <ProjectsItem/>
+                </div>
             </div>
         </div>
     );
