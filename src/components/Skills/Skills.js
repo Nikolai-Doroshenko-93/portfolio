@@ -8,6 +8,7 @@ const Skills = () => {
         <div>
             <div className={s.skillsBlock}>
               <div className={c.content}>
+                  <h3 className={s.title}>My Skills</h3>
                   <div className={s.contentBlock}>
                     <SkillsItem/>
                     <SkillsItem/>

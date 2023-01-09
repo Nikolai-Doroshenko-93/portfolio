@@ -12,8 +12,9 @@ const Contacts = () => {
                         <input/>
                         <input/>
                         <textarea></textarea>
-                        <button></button>
+
                     </form>
+                    <button>Send</button>
                 </div>
             </div>
         </div>

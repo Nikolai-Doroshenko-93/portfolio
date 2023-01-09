@@ -6,8 +6,8 @@ import ProjectsItem from "./ProjectsItem/ProjectsItem";
 const Projects = () => {
     return (
         <div className={s.projectsBlock}>
-            <h2 className={s.title}>My Projects</h2>
             <div className={c.content}>
+                <h2 className={s.title}>My Projects</h2>
                 <div className={s.contentBlock}>
                     <ProjectsItem/>
                     <ProjectsItem/>
