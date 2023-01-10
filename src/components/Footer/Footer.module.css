@@ -1,3 +1,17 @@
 .footerBlock {
-
+    height: 100vh;
+    background-color: #ffa1bc;
+}
+.contentBlock {
+    width: 80%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconContainer {
+    width: 100px;
+    height: 100px;
+    background-color: #e7ccff;
 }
