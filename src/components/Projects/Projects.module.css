@@ -1,9 +1,11 @@
 .title {
     text-align: center;
     margin: 0;
+
 }
 .projectsBlock {
     background-color: #ffe4c2;
+    min-height: 100vh;
 }
 .contentBlock {
     width: 100%;

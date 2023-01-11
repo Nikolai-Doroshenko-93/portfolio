@@ -9,10 +9,18 @@ const Footer = () => {
             <div className={c.content}>
                 <h3>Nikolai Doroshenko</h3>
                 <div className={s.contentBlock}>
-                    <div className={s.iconContainer}></div>
-                    <div className={s.iconContainer}></div>
-                    <div className={s.iconContainer}></div>
-                    <div className={s.iconContainer}></div>
+                    <div className={s.iconContainer}>
+                        <a className={s.icon}></a>
+                    </div>
+                    <div className={s.iconContainer}>
+                        <a className={s.icon}></a>
+                    </div>
+                    <div className={s.iconContainer}>
+                        <a className={s.icon}></a>
+                    </div>
+                    <div className={s.iconContainer}>
+                        <a className={s.icon}></a>
+                    </div>
                 </div>
                 <p>© All rights reserved</p>
             </div>

@@ -1,5 +1,6 @@
 .skillsBlock {
     background-color: #cdff87;
+    min-height: 100vh;
 }
 .contentBlock {
     width: 100%;
