@@ -9,10 +9,9 @@ const Contacts = () => {
             <div className={c.content}>
                 <div className={s.contentBlock}>
                     <form className={s.formBlock}>
-                        <input/>
-                        <input/>
-                        <textarea></textarea>
-
+                        <input className={s.input}/>
+                        <input className={s.input}/>
+                        <textarea className={s.textarea}></textarea>
                     </form>
                     <button>Send</button>
                 </div>
