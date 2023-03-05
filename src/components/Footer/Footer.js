@@ -1,26 +1,46 @@
 import React from "react";
 import s from './Footer.module.css';
 import c from '../../common/styles/Content.module.css'
+import Icons from '../../common/Icons/Icons'
 
 
 const Footer = () => {
     return (
         <div className={s.footerBlock}>
-            <div className={c.content}>
+            <div className={s.footerContent}>
                 <h3>Nikolai Doroshenko</h3>
-                <div className={s.contentBlock}>
+                <div className={s.iconBlock}>
                     <div className={s.iconContainer}>
-                        <a className={s.icon}></a>
+                        <a className={s.icon}>
+                            <Icons
+                                name='logo-github'
+                                size='50'
+                                color='gray'
+                                className={s.icon}
+                            />
+                        </a>
                     </div>
                     <div className={s.iconContainer}>
-                        <a className={s.icon}></a>
+                        <a className={s.icon}>
+                            <Icons
+                                name='logo-linkedin'
+                                size='50'
+                                color='gray'
+                                className={s.icon}
+                            />
+                        </a>
                     </div>
                     <div className={s.iconContainer}>
-                        <a className={s.icon}></a>
+                        <a className={s.icon}>
+                            <Icons
+                                name='logo-facebook'
+                                size='50'
+                                color='gray'
+                                className={s.icon}
+                            />
+                        </a>
                     </div>
-                    <div className={s.iconContainer}>
-                        <a className={s.icon}></a>
-                    </div>
+
                 </div>
                 <p>© All rights reserved</p>
             </div>

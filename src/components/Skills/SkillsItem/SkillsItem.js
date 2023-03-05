@@ -1,11 +1,18 @@
 import React from "react";
 import s from './SkillsItem.module.css';
+import Icons from '../../../common/Icons'
 
-const SkillsItem = () => {
+const SkillsItem = (props) => {
     return (
         <div className={s.skillsItemBlock}>
-            <div className={s.image}></div>
-            <h3 className={s.title}>React</h3>
+            <div className={s.image}>
+                <Icons
+                    name={props.name}
+                    color='#ffffff'
+                    size={props.size}
+                />
+            </div>
+            <h3 className={s.title}>{props.title}</h3>
             <div className={s.description}>
                 <p>
                     Lorem ipsum dolor sit amet,

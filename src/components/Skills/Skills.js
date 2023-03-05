@@ -10,9 +10,26 @@ const Skills = () => {
               <div className={c.content}>
                   <h3 className={s.title}>My Skills</h3>
                   <div className={s.contentBlock}>
-                    <SkillsItem/>
-                    <SkillsItem/>
-                    <SkillsItem/>
+                    <SkillsItem
+                        name={'logo-react'}
+                        size={'50'}
+                        title={'React'}
+                    />
+                    <SkillsItem
+                        name={'logo-sass'}
+                        size={'50'}
+                        title={'SASS'}
+                    />
+                    <SkillsItem
+                        name={'logo-typescript'}
+                        size={'50'}
+                        title={'TypeScript'}
+                    />
+                      <SkillsItem
+                          name={'logo-nodejs'}
+                          size={'50'}
+                          title={'NodeJS'}
+                      />
                   </div>
               </div>
             </div>
