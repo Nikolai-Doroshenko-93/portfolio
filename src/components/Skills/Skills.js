@@ -30,6 +30,16 @@ const Skills = () => {
                           size={'50'}
                           title={'NodeJS'}
                       />
+                      <SkillsItem
+                          name={'logo-html'}
+                          size={'50'}
+                          title={'HTML5'}
+                      />
+                      <SkillsItem
+                          name={'logo-vue'}
+                          size={'50'}
+                          title={'VueJS'}
+                      />
                   </div>
               </div>
             </div>
