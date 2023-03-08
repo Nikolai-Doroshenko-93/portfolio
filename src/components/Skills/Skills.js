@@ -12,32 +12,32 @@ const Skills = () => {
                   <div className={s.contentBlock}>
                     <SkillsItem
                         name={'logo-react'}
-                        size={'50'}
+                        size={'100'}
                         title={'React'}
                     />
                     <SkillsItem
                         name={'logo-sass'}
-                        size={'50'}
+                        size={'100'}
                         title={'SASS'}
                     />
                     <SkillsItem
                         name={'logo-typescript'}
-                        size={'50'}
+                        size={'100'}
                         title={'TypeScript'}
                     />
                       <SkillsItem
                           name={'logo-nodejs'}
-                          size={'50'}
+                          size={'150'}
                           title={'NodeJS'}
                       />
                       <SkillsItem
                           name={'logo-html'}
-                          size={'50'}
+                          size={'100'}
                           title={'HTML5'}
                       />
                       <SkillsItem
                           name={'logo-vue'}
-                          size={'50'}
+                          size={'150'}
                           title={'VueJS'}
                       />
                   </div>

@@ -8,13 +8,13 @@ const SkillsItem = (props) => {
             <div className={s.image}>
                 <Icons
                     name={props.name}
-                    color='#ffffff'
+                    color='#49f8a1'
                     size={props.size}
                 />
             </div>
-            <h3 className={s.title}>{props.title}</h3>
+            <h4 className={s.title}>{props.title}</h4>
             <div className={s.description}>
-                <p>
+                <p className={s.description}>
                     Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit.
                     Nulla turpis sapien, accumsan

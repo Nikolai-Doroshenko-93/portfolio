@@ -6,7 +6,7 @@
 .imageBlock {
     width: 100%;
     height: 300px;
-    background-color: #61dafb;
+    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,9 +15,14 @@
 .viewButton {
     width: 80px;
     height: 30px;
-    background-color: #ffdb39;
+    background-color: #101010;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    border: 1px solid #49f8a1;
+
+}
+p {
+    color: #49f8a1;
 }

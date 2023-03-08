@@ -1,5 +1,5 @@
 .skillsBlock {
-    background: black;
+    background:#0c0c0c;
     min-height: 100vh;
 }
 .contentBlock {
@@ -13,3 +13,4 @@
 .title {
     text-align: center;
 }
+
