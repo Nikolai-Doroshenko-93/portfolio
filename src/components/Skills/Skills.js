@@ -27,7 +27,7 @@ const Skills = () => {
                     />
                       <SkillsItem
                           name={'logo-nodejs'}
-                          size={'150'}
+                          size={'100'}
                           title={'NodeJS'}
                       />
                       <SkillsItem
@@ -37,7 +37,7 @@ const Skills = () => {
                       />
                       <SkillsItem
                           name={'logo-vue'}
-                          size={'150'}
+                          size={'100'}
                           title={'VueJS'}
                       />
                   </div>

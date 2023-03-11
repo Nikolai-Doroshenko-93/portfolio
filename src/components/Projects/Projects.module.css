@@ -6,11 +6,62 @@
 .projectsBlock {
     background-color: #101010;
     min-height: 100vh;
+
 }
 .contentBlock {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    padding-bottom: 40px;
 }
+@media (min-width: 1200px) {
+    .contentBlock {
+        display: grid;
+        grid-template-areas: "a b";
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contentBlock {
+        display: grid;
+        grid-template-areas: "a b";
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .contentBlock {
+        grid-template-areas: "a b";
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .contentBlock {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+}
+
+/*!* Portrait phones and smaller *!*/
+/*@media (max-width: 480px) {*/
+/*    .contentBlock {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        align-content: center;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*}*/
+
+/*!* Iphone 5 *!*/
+/*@media (max-width: 320px) {*/
+/*    .contentBlock {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*        align-content: center;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*}*/

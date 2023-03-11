@@ -12,6 +12,9 @@ const Projects = () => {
                     <ProjectsItem/>
                     <ProjectsItem/>
                     <ProjectsItem/>
+                    <ProjectsItem/>
+                    <ProjectsItem/>
+                    <ProjectsItem/>
                 </div>
             </div>
         </div>
