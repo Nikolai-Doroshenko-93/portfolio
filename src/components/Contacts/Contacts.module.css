@@ -23,22 +23,28 @@
     height: 30px;
     margin: 20px;
     background: #101010;
-    border: 1px solid white;
+    border: 1px solid #101010;
+    border-bottom: 2px solid #979797;
+    box-shadow: none;
 }
 .input:focus {
     outline: none;
-    border: 1px solid #49f8a1;;
+    border-bottom: 2px solid #49f8a1;
+    box-shadow: none;
 }
 
 .textarea {
     height: 60px;
     margin: 20px;
     background: #101010;
-    border: 1px solid white;
+    border: 1px solid #101010;
+    border-bottom: 2px solid #979797;
+    box-shadow: none;
 }
 .textarea:focus {
      outline: none;
-     border: 1px solid #49f8a1;;
+     border-bottom: 2px solid #49f8a1;
+    box-shadow: none;
  }
 
 
