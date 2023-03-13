@@ -6,7 +6,6 @@
     align-content: center;
     align-items: center;
 }
-
 .contentBlock {
     margin: 0 auto;
 }
@@ -19,10 +18,12 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 .title {
-    margin: 0;
     text-align: center;
+    position: relative;
+    bottom: 50px;
 }
 .button {
     width: 200px;
@@ -34,4 +35,12 @@
     margin: 0 auto;
     border: 1px solid #49f8a1;
     color: #49f8a1;
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+}
+.button:hover {
+    background-color: #49f8a1;
+    color: #0c0c0c;
+
 }

@@ -15,7 +15,7 @@ const Footer = () => {
                             <Icons
                                 name='logo-github'
                                 size='50'
-                                color='gray'
+                                color='c4c4c4'
                                 className={s.icon}
                             />
                         </a>
@@ -25,7 +25,7 @@ const Footer = () => {
                             <Icons
                                 name='logo-linkedin'
                                 size='50'
-                                color='gray'
+                                color='f2f0f0'
                                 className={s.icon}
                             />
                         </a>
@@ -35,7 +35,7 @@ const Footer = () => {
                             <Icons
                                 name='logo-facebook'
                                 size='50'
-                                color='gray'
+                                color='#101010'
                                 className={s.icon}
                             />
                         </a>

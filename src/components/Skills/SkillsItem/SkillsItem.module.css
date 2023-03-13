@@ -1,9 +1,22 @@
+/*@keyframes skillsItemAnimation {*/
+/*    0% {*/
+/*        right: -50%;*/
+/*        opacity: 0.8;*/
+/*    }*/
+/*    100% {*/
+/*        right: 0;*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
+
 .skillsItemBlock {
     width:90%;
     height: 100%;
     border: 2px solid gray;
     font-family: 'Ubuntu', sans-serif;
     margin: 0 auto;
+    position: relative;
+    /*animation: skillsItemAnimation 1s linear 1;*/
 }
 .image {
     width: 100%;

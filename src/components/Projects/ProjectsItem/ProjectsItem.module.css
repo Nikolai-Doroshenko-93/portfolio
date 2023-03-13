@@ -23,7 +23,13 @@
     align-items: center;
     align-content: center;
     border: 1px solid #49f8a1;
-
+    cursor: pointer;
+}
+.viewButton:hover {
+    background-color: #49f8a1;
+}
+.viewButton:hover p {
+    color: #101010;
 }
 p {
     color: #49f8a1;

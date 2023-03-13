@@ -7,3 +7,14 @@
     justify-content: flex-end;
     align-items: center;
 }
+.contentBlock {
+    border: 1px solid gray;
+    height: 100%;
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
