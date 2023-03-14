@@ -6,7 +6,7 @@ const ProjectsItem = () => {
         <div className={s.projectsItemBlock}>
             <div className={s.imageBlock}>
                 <div className={s.viewButton}>
-                    <p>View</p>
+                    <p className={s.buttonText}>View</p>
                 </div>
             </div>
         </div>

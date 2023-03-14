@@ -31,6 +31,6 @@
 .viewButton:hover p {
     color: #101010;
 }
-p {
+.buttonText {
     color: #49f8a1;
 }
