@@ -17,37 +17,37 @@ const Skills = () => {
                         name={'logo-react'}
                         size={'100'}
                         title={'React'}
-                        aosOptions={'flip-left'}
+                        aosOptions={'fade-left'}
                     />
                     <SkillsItem
                         name={'logo-sass'}
                         size={'100'}
                         title={'SASS'}
-                        aosOptions={'flip-up'}
+                        aosOptions={'fade-up'}
                     />
                     <SkillsItem
                         name={'logo-typescript'}
                         size={'100'}
                         title={'TypeScript'}
-                        aosOptions={'flip-right'}
+                        aosOptions={'fade-right'}
                     />
                       <SkillsItem
                           name={'logo-nodejs'}
                           size={'100'}
                           title={'NodeJS'}
-                          aosOptions={'flip-left'}
+                          aosOptions={'fade-left'}
                       />
                       <SkillsItem
                           name={'logo-html'}
                           size={'100'}
                           title={'HTML5'}
-                          aosOptions={'flip-down'}
+                          aosOptions={'fade-down'}
                       />
                       <SkillsItem
                           name={'logo-vue'}
                           size={'100'}
                           title={'VueJS'}
-                          aosOptions={'flip-right'}
+                          aosOptions={'fade-right'}
                       />
                   </div>
               </div>

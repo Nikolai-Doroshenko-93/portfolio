@@ -8,8 +8,7 @@ const SkillsItem = (props) => {
 
     return (
         <div className={s.skillsItemBlock}
-             data-aos={props.aosOptions}
-             data-aos-offset="500"
+             // data-aos={props.aosOptions}
         >
             <div className={s.image}>
                 <Icons
