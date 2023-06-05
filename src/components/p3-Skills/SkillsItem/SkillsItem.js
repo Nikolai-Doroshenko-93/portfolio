@@ -1,7 +1,6 @@
 import React, {useEffect} from "react";
 import s from './SkillsItem.module.css';
 import Icons from '../../../common/Icons'
-import AOS from "aos";
 import 'aos/dist/aos.css'
 
 const SkillsItem = (props) => {
