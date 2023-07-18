@@ -2,7 +2,21 @@ import React from "react";
 import s from './Main.module.css';
 import c from '../../common/styles/Content.module.css'
 
+
 const Main = () => {
+    //
+    // const particlesOpt = {
+    //     "particles": {
+    //         "number": {
+    //             "value": 150,
+    //             "density": {
+    //                 "enable": true,
+    //                 "value_area": 800
+    //             }
+    //         }
+    //     }
+    // }
+
     return (
         <div className={s.mainBlock}>
             <div className={c.content}>
