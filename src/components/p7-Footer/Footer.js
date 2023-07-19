@@ -1,15 +1,15 @@
 import React from "react";
 import s from './Footer.module.css';
-import c from '../../common/styles/Content.module.css'
 import Icons from '../../common/Icons/Icons'
-
+import {Zoom} from "react-reveal"
 
 const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={s.footerContent}>
                 <h3>Nikolai Doroshenko</h3>
-                <div className={s.iconBlock}>
+                <Zoom>
+                    <div className={s.iconBlock}>
                     <div className={s.iconContainer}>
                         <a className={s.icon}>
                             <Icons
@@ -42,6 +42,7 @@ const Footer = () => {
                     </div>
 
                 </div>
+                </Zoom>
                 <p>© All rights reserved</p>
             </div>
         </div>
