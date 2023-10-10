@@ -38,10 +38,13 @@
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
     .contentBlock {
-        display: flex;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*align-content: center;*/
+        /*flex-direction: column;*/
+        grid-template-areas: "a";
         align-items: center;
-        align-content: center;
-        flex-direction: column;
+        justify-items: center;
     }
 }
 

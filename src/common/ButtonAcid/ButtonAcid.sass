@@ -1,21 +1,9 @@
 $prime: #00FF80
 $second: #0c1016
 
-body,
-html
-  align-items: center
-  background-color: $second
-  display: flex
-  font-family: 'Roboto'
-  font-size: 10px
-  height: 100%
-  justify-content: center
-  margin: 0
-  padding: 0
-  width: 100%
 
-*
-  box-sizing: border-box
+//*
+//  box-sizing: border-box
 
 svg
   position: absolute
@@ -29,10 +17,15 @@ svg
   color: $second
   filter: url('#gooey')
   position: relative
-  background-color: $prime
+  background-color: #49f8a1
+  width: 100%
+  cursor: pointer
 
   &:focus
     outline: none
+  &:hover
+    color: black
+    background-color: $prime
 
   .bubbles
     position: absolute
@@ -42,7 +35,7 @@ svg
     right: 0
 
     .bubble
-      background-color: $prime
+      background-color: #49f8a1
       border-radius: 100%
       position: absolute
       top: 0
