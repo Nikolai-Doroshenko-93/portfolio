@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Main.module.css';
 import c from '../../common/styles/Content.module.css'
+import ViewButton from "../../common/viewButton/viewButton";
 
 
 const Main = () => {
@@ -30,6 +31,7 @@ const Main = () => {
                     <div className={s.photo}></div>
                 </div>
             </div>
+
         </div>
     );
 }
