@@ -1,8 +1,8 @@
 $green: #58DD93;
 
 :root {
-  --size-default: 22px;
-  --size-sm: 16px;
+  --size-default: 40px;
+  --size-sm: 10px;
   --color-green: #{$green};
   --color-black: #000;
 }
@@ -86,11 +86,11 @@ html, body {
                     var(--glowColor) 50%,
                     rgba(0,0,0,0) 66%,
                     rgba(0,0,0,0) 100%);
-    animation: rotate 2s infinite linear;
+    animation: rotate 20s infinite linear;
   }
 
   &:before {
-    animation: rotate 2s infinite linear;
+    animation: rotate 20s infinite linear;
     filter: blur(20px);
   }
 

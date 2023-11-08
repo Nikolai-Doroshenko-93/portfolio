@@ -9,7 +9,6 @@ body{
 }
 
 #neon{
-    position:fixed;
     margin:auto;
     top:0;
     bottom:0;
@@ -18,7 +17,7 @@ body{
     height:1vh;
     line-height:1vh;
     text-align:center;
-    font-size:20vh;
+    font-size:15vh;
     font-family:neon;
     color:white;
     text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);
@@ -62,5 +61,38 @@ body{
     76%{
         text-shadow: 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 .5vh var(--lights), 0 0 1vh var(--lights);;
         filter:brightness(1)
+    }
+}
+
+@media (min-width: 1200px) {
+    #neon {
+        font-size:14vh;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #neon {
+        font-size:12vh;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    #neon {
+        font-size:10vh;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) and (min-width: 641px) {
+    #neon {
+        font-size:8vh;
+    }
+}
+
+@media (max-width: 640px) and (min-width: 360px) {
+    #neon {
+        font-size:6vh;
     }
 }

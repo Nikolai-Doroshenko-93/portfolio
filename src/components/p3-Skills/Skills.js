@@ -4,6 +4,7 @@ import c from '../../common/styles/Content.module.css'
 import SkillsItem from "./SkillsItem/SkillsItem";
 
 import {Zoom} from "react-reveal";
+import Neon from "../../common/NeonFont/Neon";
 
 const Skills = () => {
 
@@ -11,7 +12,11 @@ const Skills = () => {
         <div className={s.skillsSection}>
             <div className={s.skillsBlock}>
               <div className={c.content}>
-                  <h3 className={s.title}>My Skills</h3>
+                  <div className={s.titleContainer}>
+                      <Neon
+                      title={'My Skills'}
+                      />
+                  </div>
                   <div className={s.contentBlock}>
                       <Zoom>
                           <SkillsItem

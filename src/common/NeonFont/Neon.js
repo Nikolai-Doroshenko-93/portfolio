@@ -1,11 +1,11 @@
 import React from "react";
 import './Neon.css'
 
-function Neon() {
+function Neon(props) {
 
     return (
         <div className="App">
-            <div id="neon">Neon</div>
+            <div id="neon">{props.title}</div>
         </div>
     );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import s from './Main.module.css';
 import c from '../../common/styles/Content.module.css'
 import ViewButton from "../../common/viewButton/viewButton";
+import Neon from "../../common/NeonFont/Neon";
 
 
 const Main = () => {
@@ -29,6 +30,7 @@ const Main = () => {
                         <p className={s.p}><span className={s.span}>Mail: </span>doroshenko.nikolai.a@gmail.ru</p>
                     </div>
                     <div className={s.photo}></div>
+                    <Neon/>
                 </div>
             </div>
 

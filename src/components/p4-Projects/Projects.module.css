@@ -11,6 +11,10 @@
     width: 100%;
     padding-bottom: 40px;
 }
+.titleContainer {
+    margin: 100px;
+    height: 50px;
+}
 @media (min-width: 1200px) {
     .contentBlock {
         display: grid;
