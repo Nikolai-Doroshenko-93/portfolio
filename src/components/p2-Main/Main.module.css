@@ -5,19 +5,26 @@
 .greetings {
     background-color: #101010;
     height: 300px;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 }
 .p {
 
 }
 .span {
-    color: #49f8a1;
+    color: rgb(91, 235, 115);
 }
 .photo {
-    width: 300px;
-    height: 300px;
-    background-color: #ff1f28;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    content-visibility: auto;
+    border: 7px solid white
+}
+.imgElement {
+    width: 500px;
+    height: auto;
 }
 .contentBlock {
     width: 100%;

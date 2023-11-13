@@ -4,7 +4,7 @@ import './Neon.css'
 function Neon(props) {
 
     return (
-        <div className="App">
+        <div className='titleContainer'>
             <div id="neon">{props.title}</div>
         </div>
     );

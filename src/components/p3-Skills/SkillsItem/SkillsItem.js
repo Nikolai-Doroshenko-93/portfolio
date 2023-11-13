@@ -12,7 +12,7 @@ const SkillsItem = (props) => {
             <div className={s.image}>
                 <Icons
                     name={props.name}
-                    color='#49f8a1'
+                    color='rgb(106, 247, 151)'
                     size={props.size}
                 />
             </div>

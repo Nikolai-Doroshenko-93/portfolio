@@ -14,10 +14,6 @@
     grid-template-areas: "a b c";
     padding-bottom: 40px;
 }
-.titleContainer {
-    margin: 0100px;
-    height: 50px;
-}
 
 .item {
     width: 100%;

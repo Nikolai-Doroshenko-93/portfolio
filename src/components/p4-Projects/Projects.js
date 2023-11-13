@@ -9,11 +9,9 @@ const Projects = () => {
     return (
         <div className={s.projectsBlock}>
             <div className={c.content}>
-                <div className={s.titleContainer}>
-                    <Neon
-                        title={'My Projects'}
-                    />
-                </div>
+                <Neon
+                    title={'My Project'}
+                />
                 <div className={s.contentBlock}>
                     <Zoom>
                         <ProjectsItem/>

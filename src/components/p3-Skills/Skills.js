@@ -12,11 +12,9 @@ const Skills = () => {
         <div className={s.skillsSection}>
             <div className={s.skillsBlock}>
               <div className={c.content}>
-                  <div className={s.titleContainer}>
                       <Neon
                       title={'My Skills'}
                       />
-                  </div>
                   <div className={s.contentBlock}>
                       <Zoom>
                           <SkillsItem
