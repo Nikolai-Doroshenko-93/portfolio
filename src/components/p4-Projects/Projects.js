@@ -14,7 +14,9 @@ const Projects = () => {
                 />
                 <div className={s.contentBlock}>
                     <Zoom>
-                        <ProjectsItem/>
+                        <ProjectsItem
+                        href={'https://nikolai-doroshenko-93.github.io/to-do-list-incubator/'}
+                        />
                         <ProjectsItem/>
                         <ProjectsItem/>
                         <ProjectsItem/>
