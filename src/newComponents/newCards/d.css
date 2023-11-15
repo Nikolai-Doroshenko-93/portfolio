@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-    position: absolute;
     height: 300px;
     width: 600px;
     top: 60px;
