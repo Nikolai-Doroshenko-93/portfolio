@@ -7,7 +7,38 @@ import {Zoom} from "react-reveal";
 import Neon from "../../common/NeonFont/Neon";
 
 const Skills = () => {
-
+    const state = {
+        react : {
+            name: 'logo-react',
+            size: '100',
+            title: 'React',
+        },
+        saas: {
+            name: 'logo-sass',
+            size: '100',
+            title: 'SASS'
+        },
+        typescript: {
+            name: 'TypeScript',
+            size: '100',
+            title: 'TypeScript'
+        },
+        nodejs: {
+            name: 'logo-nodejs',
+            size: '100',
+            title: 'NodeJS'
+        },
+        html: {
+            name: 'logo-html',
+            size: '100',
+            title: 'HTML5'
+        },
+        vuejs: {
+            name: 'logo-vue',
+            size: '100',
+            title: 'VueJS'
+        }
+    }
     return (
         <div className={s.skillsSection}>
             <div className={s.skillsBlock}>
