@@ -5,7 +5,7 @@
 .greetings {
     background-color: #101010;
     height: 300px;
-    font-size: 30px;
+    font-size: 26px;
     color: white;
 }
 .p {
@@ -15,15 +15,15 @@
     color: rgb(91, 235, 115);
 }
 .photo {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     box-sizing: border-box;
     border-radius: 100%;
     content-visibility: auto;
     border: 7px solid white
 }
 .imgElement {
-    width: 500px;
+    width: 450px;
     height: auto;
 }
 .contentBlock {
@@ -36,3 +36,71 @@
 .particles {
 
 }
+
+@media (min-width: 1200px) {
+
+}
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1100px) {
+.contentBlock {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .contentBlock {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .contentBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    .greetings {
+        background-color: #101010;
+        height: 300px;
+        font-size: 25px;
+        color: white;
+    }
+    .imgElement {
+        width: 400px;
+        height: auto;
+    }
+    .photo {
+        width: 400px;
+        height: auto;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .contentBlock {
+        display: flex;
+        flex-direction: column;
+    }
+    /*.imgElement {*/
+    /*    width: 400px;*/
+    /*    height: auto;*/
+    /*}*/
+    /*.photo {*/
+    /*    width: 400px;*/
+    /*}*/
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+    .contentBlock {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
