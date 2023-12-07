@@ -86,13 +86,13 @@
         display: flex;
         flex-direction: column;
     }
-    /*.imgElement {*/
-    /*    width: 400px;*/
-    /*    height: auto;*/
-    /*}*/
-    /*.photo {*/
-    /*    width: 400px;*/
-    /*}*/
+    .imgElement {
+        width: 250px;
+        height: auto;
+    }
+    .photo {
+        width: 250px;
+    }
 }
 
 /* Iphone 5 */
@@ -100,6 +100,13 @@
     .contentBlock {
         display: flex;
         flex-direction: column;
+    }
+    .imgElement {
+        width: 200px;
+        height: auto;
+    }
+    .photo {
+        width: 200px;
     }
 }
 
