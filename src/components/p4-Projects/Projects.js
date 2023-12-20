@@ -4,6 +4,7 @@ import c from '../../common/styles/Content.module.css'
 import ProjectsItem from "./ProjectsItem/ProjectsItem";
 import {Zoom} from "react-reveal"
 import Neon from "../../common/NeonFont/Neon";
+import {ProjectCard} from "../../newComponents/newCards/ProjectCard";
 
 const Projects = () => {
     return (
@@ -14,14 +15,12 @@ const Projects = () => {
                 />
                 <div className={s.contentBlock}>
                     <Zoom>
-                        <ProjectsItem
-                        href={'https://nikolai-doroshenko-93.github.io/to-do-list-incubator/'}
-                        />
-                        <ProjectsItem/>
-                        <ProjectsItem/>
-                        <ProjectsItem/>
-                        <ProjectsItem/>
-                        <ProjectsItem/>
+                        <ProjectCard/>
+                        <ProjectCard/>
+                        <ProjectCard/>
+                        <ProjectCard/>
+                        <ProjectCard/>
+                        <ProjectCard/>
                     </Zoom>
                 </div>
             </div>
