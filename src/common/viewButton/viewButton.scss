@@ -2,7 +2,7 @@ $green: rgb(106, 247, 151);
 
 :root {
   --size-default: 40px;
-  --size-sm: 10px;
+  --size-sm: 7px;
   --color-green: #{$green};
   --color-black: #000;
 }
@@ -52,7 +52,7 @@ html, body {
   height: 100%;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 10px;
 }
 
 .btn {

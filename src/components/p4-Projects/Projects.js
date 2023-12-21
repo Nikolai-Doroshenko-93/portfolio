@@ -15,7 +15,9 @@ const Projects = () => {
                 />
                 <div className={s.contentBlock}>
                     <Zoom>
-                        <ProjectCard/>
+                        <ProjectCard
+                            title={"Save life"}
+                        />
                         <ProjectCard/>
                         <ProjectCard/>
                         <ProjectCard/>
