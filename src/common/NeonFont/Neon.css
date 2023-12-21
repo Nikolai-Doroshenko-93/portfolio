@@ -96,9 +96,9 @@ body{
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) and (min-width: 641px) {
+@media (max-width: 767px) and (min-width: 640px) {
     #neon {
-        font-size:8vh;
+        font-size:10vh;
     }
     .titleContainer {
         margin: 65px;

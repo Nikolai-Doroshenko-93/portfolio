@@ -70,6 +70,10 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+    .additionalSkills {
+        display: grid;
+        grid-template-areas: "a b";
+    }
     .contentBlock {
         grid-template-areas: "a b c";
         align-items: center;
@@ -79,11 +83,14 @@
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+    .additionalSkills {
+        display: grid;
+        grid-template-areas: "a";
+    }
     .contentBlock {
-        display: flex;
+        grid-template-areas: "a b";
         align-items: center;
-        align-content: center;
-        flex-direction: column;
+        justify-items: center;
     }
 }
 
