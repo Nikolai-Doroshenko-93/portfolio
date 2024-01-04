@@ -5,11 +5,10 @@
 }
 .card {
     position: relative;
-    cursor: pointer;
 }
 
 .card .face{
-    width: 300px;
+    width: 400px;
     height: 150px;
     transition: 0.5s;
 }
@@ -28,7 +27,6 @@
 
 .card:hover .face.face1{
     transform: translateY(0);
-
 }
 
 .card .face.face1 .content{
@@ -45,11 +43,9 @@
 }
 
 .card .face.face1 .content h3{
-    margin: 10px 0 0;
+    margin: 10px 0 10px;
     padding: 0;
-    color: #fff;
     text-align: center;
-    font-size: 1.5em;
 }
 
 .card .face.face2{
@@ -100,4 +96,15 @@
         transform: translateY(0);
     }
 
+}
+
+.title {
+    font-size: 35px;
+    color: #BDECC5
+}
+.info {
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+    color: #BDECC5
 }

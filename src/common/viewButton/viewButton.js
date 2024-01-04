@@ -9,7 +9,7 @@ function ViewButton(props) {
                 <a className='btn'
                    href={props.href}
                    target={"_blank"}>
-                    <span className='btnInner'>Button</span>
+                    <span className='btnInner'>View</span>
                 </a>
             </div>
         </div>

@@ -12,6 +12,7 @@ const RemoteWork = () => {
                   <h2 className={s.title}>I'm considering remote work</h2>
                   <div className={s.button}>
                       <ButtonAcid/>
+                      <a className={s.href} href={"mailto: doroshenko.nikolai.a@gamil.com"}></a>
                   </div>
                 </div>
               </div>

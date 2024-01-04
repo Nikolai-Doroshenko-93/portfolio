@@ -4,7 +4,7 @@ import  './ButtonAcid.sass'
 
 
 export const ButtonAcid = (props) => {
-    return <>
+    return <div className={"wrapper"}>
         <svg className="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
                 <filter id="gooey">
@@ -17,7 +17,7 @@ export const ButtonAcid = (props) => {
             </defs>
         </svg>
 
-        <button id="gooey-button">
+        <button id="gooey-button" >
             Hire me
             <span className="bubbles">
             <span className="bubble"></span>
@@ -32,5 +32,5 @@ export const ButtonAcid = (props) => {
             <span className="bubble"></span>
         </span>
         </button>
-    </>
+    </div>
 }
