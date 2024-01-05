@@ -11,3 +11,14 @@ a {
 a:hover {
   color:#BDECC5;
 }
+
+@media (max-width: 480px) {
+    a {
+        font-size: 70%;
+    }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}

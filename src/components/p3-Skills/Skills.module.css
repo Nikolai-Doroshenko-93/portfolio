@@ -88,9 +88,12 @@
         grid-template-areas: "a";
     }
     .contentBlock {
+        margin: 0 auto;
         grid-template-areas: "a b";
         align-items: center;
         justify-items: center;
+        position: relative;
+        left: -20px;
     }
 }
 

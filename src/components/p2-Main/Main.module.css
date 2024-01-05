@@ -99,6 +99,14 @@ color: #BDECC5;
     }
     .photo {
         width: 250px;
+        position: relative;
+        top:-100px;
+    }
+    .p {
+        font-size: 60%
+    }
+    .span {
+        color: gray;
     }
 }
 

@@ -117,10 +117,10 @@ body{
 }
 @media (max-width: 380px) {
     #neon {
-        font-size:4vh;
+        font-size:6vh;
     }
     .titleContainer {
-        margin: 50px;
+        margin: 50px 20px;
         height: 15px;
     }
 }
