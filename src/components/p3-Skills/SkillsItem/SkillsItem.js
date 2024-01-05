@@ -9,7 +9,6 @@ const SkillsItem = (props) => {
             <div className={s.image}>
                 <Icons
                     name={props.name}
-                    color='rgb(106, 247, 151)'
                     size={props.size}
                 />
             </div>

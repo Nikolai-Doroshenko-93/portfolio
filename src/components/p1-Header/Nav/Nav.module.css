@@ -1,5 +1,5 @@
 .nav {
-    width: 300px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 
@@ -9,5 +9,5 @@ a {
     text-decoration: none;
 }
 a:hover {
-  color: rgb(91, 235, 115);
+  color:#BDECC5;
 }
