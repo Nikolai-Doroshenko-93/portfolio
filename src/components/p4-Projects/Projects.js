@@ -15,11 +15,6 @@ const Projects = () => {
                 <div className={s.contentBlock}>
                     <Zoom>
                         <ProjectCard
-                            title={"Save life"}
-                            href={"https://save-life-project.netlify.app/"}
-                            info={"Adaptive layout, Webpack, SCSS"}
-                        />
-                        <ProjectCard
                             title={"To-do list (React)"}
                             href={"https://nikolai-doroshenko-93.github.io/to-do-list-incubator/"}
                             info={"React, Redux Toolkit, Material UI, Typescript"}
@@ -38,6 +33,11 @@ const Projects = () => {
                             title={"First order"}
                             href={"http://superlative-ganache-09a2f6.netlify.app/"}
                             info={"A small business card website for advertising geodetic services"}
+                        />
+                        <ProjectCard
+                            title={"Save life"}
+                            href={"https://save-life-project.netlify.app/"}
+                            info={"Adaptive layout, Webpack, SCSS"}
                         />
                         <ProjectCard
                             title={"Micro tasks"}
