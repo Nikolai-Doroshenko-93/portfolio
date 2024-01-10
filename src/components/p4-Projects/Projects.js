@@ -36,7 +36,7 @@ const Projects = () => {
                         />
                         <ProjectCard
                             title={"Save life"}
-                            href={"https://save-life-project.netlify.app/"}
+                            href={"https://courageous-elf-0910d4.netlify.app"}
                             info={"Adaptive layout, Webpack, SCSS"}
                         />
                         <ProjectCard
