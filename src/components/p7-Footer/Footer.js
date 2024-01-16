@@ -7,7 +7,10 @@ const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={s.footerContent}>
+                <a name={"contacts"}></a>
                 <h3>Nikolai Doroshenko</h3>
+                <p>Phone: +375297880889</p>
+                <p>Mail: doroshenko.nikolai.a@gamil.com</p>
                 <Zoom>
                     <div className={s.iconBlock}>
                     <div className={s.iconContainer}>

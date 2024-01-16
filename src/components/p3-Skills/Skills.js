@@ -70,6 +70,7 @@ const Skills = () => {
     ]
     return (
         <div className={s.skillsSection}>
+            <a name={"skills"}></a>
             <div className={s.skillsBlock}>
               <div className={c.content}>
                       <Neon

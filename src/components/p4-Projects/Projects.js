@@ -8,6 +8,7 @@ import {ProjectCard} from "./ProjectsItem/ProjectCard";
 const Projects = () => {
     return (
         <div className={s.projectsBlock}>
+            <a name={"project"}></a>
             <div className={c.content}>
                 <Neon
                     title={'My Project'}
