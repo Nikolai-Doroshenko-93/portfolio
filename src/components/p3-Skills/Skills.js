@@ -73,9 +73,11 @@ const Skills = () => {
             <a name={"skills"}></a>
             <div className={s.skillsBlock}>
               <div className={c.content}>
+                  <div className={s.neonTitle}>
                       <Neon
                       title={'My Skills'}
                       />
+                  </div>
                   <div className={s.contentBlock}>
                       <Zoom>
                           {state.map((s) => {
@@ -90,20 +92,6 @@ const Skills = () => {
                           })}
                       </Zoom>
                   </div>
-                  {/*<div className={s.additionalContent}>*/}
-                  {/*    <p className={s.andAlso}>and also</p>*/}
-                  {/*    <div className={s.additionalSkills}>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>React Redux</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>Figma</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>Material UI</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>StoryBook</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>Swagger</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>Redux toolkit</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>React Router Dom</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>Webpack</p></div>*/}
-                  {/*        <div className={s.additionalSkillBlock}><p>SCSS</p></div>*/}
-                  {/*    </div>*/}
-                  {/*</div>*/}
               </div>
             </div>
         </div>

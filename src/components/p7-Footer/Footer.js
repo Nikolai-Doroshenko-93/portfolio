@@ -8,9 +8,9 @@ const Footer = () => {
         <div className={s.footerBlock}>
             <div className={s.footerContent}>
                 <a name={"contacts"}></a>
-                <h3>Nikolai Doroshenko</h3>
+                <h4>Nikolai Doroshenko</h4>
                 <p>Phone: +375297880889</p>
-                <p>Mail: doroshenko.nikolai.a@gamil.com</p>
+                <p>doroshenko.nikolai.a@gamil.com</p>
                 <Zoom>
                     <div className={s.iconBlock}>
                     <div className={s.iconContainer}>
@@ -24,7 +24,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className={s.iconContainer}>
-                        <a className={s.icon}>
+                        <a className={s.icon} href={"https://linkedin.com/in/николай-дорошенко-13607a239"}>
                             <Icons
                                 name='logo-linkedin'
                                 size='50'

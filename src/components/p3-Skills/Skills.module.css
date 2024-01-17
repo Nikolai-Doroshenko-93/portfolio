@@ -57,6 +57,10 @@
         display: grid;
         grid-template-areas: "a b c";
     }
+    .neonTitle {
+        position: relative;
+        top: -40px;
+    }
 }
 
 /* Portrait tablets and small desktops */
@@ -66,10 +70,14 @@
         align-items: center;
         justify-items: center;
     }
+    .neonTitle {
+        position: relative;
+        top: -40px;
+    }
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 481px) {
     .additionalSkills {
         display: grid;
         grid-template-areas: "a b";
@@ -78,6 +86,10 @@
         grid-template-areas: "a b c";
         align-items: center;
         justify-items: center;
+    }
+    .neonTitle {
+        position: relative;
+        top: -40px;
     }
 }
 

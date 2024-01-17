@@ -106,7 +106,7 @@ body{
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) and (min-width: 421px){
     #neon {
         font-size:6vh;
     }
@@ -115,9 +115,18 @@ body{
         height: 15px;
     }
 }
+@media (max-width: 420px) and (min-width: 381px){
+    #neon {
+        font-size:5vh;
+    }
+    .titleContainer {
+        margin: 50px;
+        height: 15px;
+    }
+}
 @media (max-width: 380px) {
     #neon {
-        font-size:6vh;
+        font-size:5vh;
     }
     .titleContainer {
         margin: 50px 20px;
